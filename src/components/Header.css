@@ -1,0 +1,113 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    position: relative;
+  }
+  
+  .header__logo {
+    margin-top: 5px;
+    width: 100px;
+    height: 95px;
+    margin-left: 120px;
+    border-radius: 50px;
+  }
+  
+  .header__center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 80px;
+  }
+  
+  .header__button {
+    background-color: lightgray;
+    margin-right: 10px !important;
+    width: 100px !important;
+    height: 45px !important;
+    background: #fff !important;
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: none !important;
+  }
+  
+  .center__button {
+    padding: 10px;
+    border: none;
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: none !important;
+  }
+  
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .app__signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+background-color: rgb(238, 222, 194);  }
+  
+  .app__signup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .app__signup button {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .app__signup button:hover {
+    background-color: darkgray;
+  }
+  .header__button:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  /* Styles for the logo */
+  .header__logo {
+    margin-top: 5px;
+    width: 100px;
+    height: 95px;
+    margin-left: 120px;
+    border-radius: 50px;
+  }
+  
